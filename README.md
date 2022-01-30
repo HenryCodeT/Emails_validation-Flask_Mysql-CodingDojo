@@ -28,6 +28,5 @@ def validate_email(data):
         flash("correo invalido")
         is_valid = False
 
-    return  is_valid 
+    return  is_valid ```python
 
-```python
