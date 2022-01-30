@@ -1,0 +1,7 @@
+{% extends "index.html" %}
+{% block content %}
+<h1>Here are the emails:</h1>
+{% for email in emails %}
+<p>{{email.email}}     <a class="" href="/delete/{{email.id}}">delete</a></p>
+{% endfor %}
+{% endblock %}
