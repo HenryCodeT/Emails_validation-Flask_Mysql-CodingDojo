@@ -7,8 +7,7 @@
 * ``` pipenv shell ```
 * ``` python server.py ```
 ### Regular expression and flash ``` email_model.py ```
-```
-import re
+```import re
 EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')
 from flask import flash
 
@@ -28,5 +27,5 @@ def validate_email(data):
         flash("correo invalido")
         is_valid = False
 
-    return  is_valid ```python
+    return  is_valid```python
 
